@@ -45,7 +45,7 @@ Sistema desktop local e privado para transcrição automatizada de reuniões pre
 
 ### 1. Clonar o repositório
 ```bash
-git clone https://github.com/SEU_USUARIO/SEU_REPOSITORIO.git
+git clone https://github.com/viniciusRG1/projetoA.git
 cd SEU_REPOSITORIO
 ```
 
