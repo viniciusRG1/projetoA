@@ -46,7 +46,6 @@ Sistema desktop local e privado para transcrição automatizada de reuniões pre
 ### 1. Clonar o repositório
 ```bash
 git clone https://github.com/viniciusRG1/projetoA.git
-cd SEU_REPOSITORIO
 ```
 
 ### 2. Criar e ativar o ambiente virtual (Python 3.12)
