@@ -33,7 +33,7 @@ class JanelaCadastrarPessoa(ctk.CTkToplevel):
         self.resizable(False, False)
         self.configure(fg_color=COR_FUNDO)
 
-        self.attributes("-topmost", True)
+        self.attributes("-topmost", False)
         self.after(100, self.lift)
         aplicarIcone(self)
 

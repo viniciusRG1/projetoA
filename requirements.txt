@@ -1,0 +1,12 @@
+customtkinter
+tkinterdnd2
+Pillow
+python-docx
+ollama
+torch
+torchaudio
+faster-whisper
+speechbrain
+soundfile
+scipy
+numpy

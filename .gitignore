@@ -4,6 +4,5 @@ __pycache__/
 dist/
 build/
 *.docx
-*.txt
 *.zip
 *.pt

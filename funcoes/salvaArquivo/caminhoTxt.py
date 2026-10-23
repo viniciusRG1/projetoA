@@ -1,10 +1,10 @@
 import os
-import tkinter as tk
+from tkinter import Tk
 from tkinter import filedialog
 
 
 def selecionarCaminhoSalvarTxt(nome="ataDoProjetoA.txt") -> str:
-    root = tk.Tk()
+    root = Tk()
     root.withdraw()
     root.attributes("-topmost", True)
 
