@@ -53,7 +53,7 @@ def _detectarFala(waveform):
     )
 
 
-def cadastrarPessoas(nome, caminhoAudio):
+def cadastrarPessoas(nome, cargo, caminhoAudio):
     waveform = carregarAudio(caminhoAudio)
     intervalosFala = _detectarFala(waveform)
 
@@ -68,9 +68,11 @@ def cadastrarPessoas(nome, caminhoAudio):
     with torch.no_grad():
         embedding = reconhecerVoz.encode_batch(waveformLimpa).squeeze(0)
         embedding = F.normalize(embedding, p=2, dim=-1)
-        bancoVoz[nome] = embedding.cpu()
+
+        bancoVoz[nome] = {"cargo": cargo, "embedding": embedding.cpu()}
         salvarBanco(bancoVoz)
-    print(f"{nome} cadastrado com sucesso.")
+
+    print(f"{nome} ({cargo}) cadastrado com sucesso.")
 
 
 def analisarAudio(
@@ -131,6 +133,7 @@ def analisarAudio(
         return None
 
     limiteAmostras = 30 * sr
+
     intervalosAjustados = []
     for fala in intervalosFala:
         inicio = fala["start"]
@@ -149,7 +152,9 @@ def analisarAudio(
 
     cos = torch.nn.CosineSimilarity(dim=-1)
     waveformsGpu = [wf.to(device) for wf in waveformsAlinhadas]
-    bancoVozGpu = {nome: emb.to(device) for nome, emb in bancoVoz.items()}
+    bancoVozGpu = {
+        nome: dados["embedding"].to(device) for nome, dados in bancoVoz.items()
+    }
 
     linhasTexto = ["Ata de Reunião"]
     dataAtual = datetime.now().strftime("%d/%m/%Y às %H:%M")
@@ -201,7 +206,7 @@ def analisarAudio(
             ) * embAtual + taxaAtualizacao * embMelhorCanal
             novaEmbNorm = F.normalize(novaEmb, p=2, dim=-1)
             bancoVozGpu[quemFalouGlobal] = novaEmbNorm
-            bancoVoz[quemFalouGlobal] = novaEmbNorm.cpu()
+            bancoVoz[quemFalouGlobal]["embedding"] = novaEmbNorm.cpu()
             atualizacoesFeitas += 1
 
         trechoVencedorTensor = waveformsAlinhadas[canalVencedor - 1][
@@ -218,8 +223,19 @@ def analisarAudio(
         print(f"[{timeInicio} - {timeFim}] {quemFalouGlobal}")
 
         if textoFala:
+            cargoFalante = (
+                bancoVoz[quemFalouGlobal].get("cargo", "")
+                if isinstance(bancoVoz.get(quemFalouGlobal), dict)
+                else ""
+            )
+            rotuloFalante = (
+                f"{quemFalouGlobal} - {cargoFalante}"
+                if cargoFalante
+                else quemFalouGlobal
+            )
+
             linhasTexto.append(
-                f"[{timeInicio} até {timeFim}] {quemFalouGlobal} ({rotuloCanal} | Confiança: {melhorScoreGlobal:.2f})"
+                f"[{timeInicio} até {timeFim}] {rotuloFalante} ({rotuloCanal} | Confiança: {melhorScoreGlobal:.2f})"
             )
             linhasTexto.append(f'"{textoFala}"\n')
             totalFalasProcessadas += 1

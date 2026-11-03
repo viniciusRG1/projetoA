@@ -1,0 +1,284 @@
+Ata de Reunião
+Data de reunião:30/10/2026 às 10:28
+
+[00:01 até 00:01] Desconhecido (Canal Único | Confiança: 0.01)
+"pronto."
+
+[00:02 até 00:12] Vinicius (Canal Único | Confiança: 0.33)
+"Então hoje a gente vai fazer a reunião do projeto P, o projeto P é qual? Projeto sobre software para celular."
+
+[00:12 até 00:35] Vinicius (Canal Único | Confiança: 0.47)
+"que auxiliaria os promotores de venda a organizarem as goldas. Ok, pode seguir então. Então, aí na tela, eu demonstrando os layouts que eu e Victor montamos, certo? A ideia deu na primeira, que inicia na primeira tela, com a data, quando eu seleciono a data das informações."
+
+[00:36 até 00:41] Vinicius (Canal Único | Confiança: 0.48)
+"um buscador para local, nota, qualquer coisa."
+
+[00:42 até 00:46] Vinicius (Canal Único | Confiança: 0.41)
+"e aí embaixo de os cards com as informações."
+
+[00:47 até 00:49] Vinicius (Canal Único | Confiança: 0.50)
+"as últimas informações e as informações filtradas."
+
+[00:50 até 00:54] Vinicius (Canal Único | Confiança: 0.50)
+"baixo a gente teria as fotos prontiradas."
+
+[00:55 até 01:04] Vinicius (Canal Único | Confiança: 0.66)
+"do lado do palco. Então, você já fou uma ideia. A gente pode tirar isso ou não. Um botão pra tirar a foto. Você quer abrir a câmera do software."
+
+[01:04 até 01:17] Vinicius (Canal Único | Confiança: 0.76)
+"e a configuração de software, que a gente colocaria talvez na matrícula, pra gente conseguir linkar num banco de dados. Na segunda seria já quebra aberta e após algum processamento de olhar."
+
+[01:18 até 01:21] Desconhecido (Canal Único | Confiança: 0.17)
+"PCP."
+
+[01:22 até 01:32] Débora (Canal Único | Confiança: 0.49)
+"e também o sistema Sankhya."
+
+[01:32 até 01:39] Vinicius (Canal Único | Confiança: 0.73)
+"alí ficou, deu-se que todos estão certos, não era dessa forma, se tivesse uma coluna de..."
+
+[01:41 até 01:46] Vinicius (Canal Único | Confiança: 0.51)
+"Zapkola, onde era para ser Minerva."
+
+[01:47 até 02:17] Vitor (Canal Único | Confiança: 0.55)
+"E esse box amarelo, ele entraria e englobaria também o Zap que está na posição de roundup, porque ele demonstra onde que era para ser o mineiro. Então ele seria um retângulo que seria uma parte amarela e outra parte de outra cor. Não vamos atentar muito a isso, dar interface a tudo, porque eu acho que está num momento muito de experimentação, Então, só a gente tomar cuidado com o que a gente está falando, que ele é definitivo, começa por aí."
+
+[02:17 até 02:25] Vitor (Canal Único | Confiança: 0.70)
+"e ainda tanto que o Vinicius me trouxe ontem a informação, né? Quando a gente tava tirando a foto, a gente conversou e a gente acha que, por exemplo..."
+
+[02:25 até 02:55] Vitor (Canal Único | Confiança: 0.75)
+"essa parte embaixo, ela não é muito necessária, ela ficaria mais sobre o uso de informação. E outra coisa que eu lembro da gente ter concordado, e eu acho bom a gente informar isso, só para ter certeza que a gente vai se sentir igual entre todo mundo, é que aqui, como o Vinicius falou, é depois da foto ter sido tirada, Não é no momento, a foto foi tirada e foi esse resultado, esse é o pós processamento."
+
+[02:55 até 03:12] Vinicius (Canal Único | Confiança: 0.71)
+"PCP."
+
+[03:12 até 03:14] Vinicius (Canal Único | Confiança: 0.51)
+"Então a ideia é mostrar isso aqui."
+
+[03:15 até 03:25] Vinicius (Canal Único | Confiança: 0.71)
+"mesmo se tiver uma colônia de sapi, ou seja, essa aqui seria a configuração correta. Então, botaria uns boxes amarelos onde era para ser tudo sapi, L, mineiro."
+
+[03:26 até 03:29] Vinicius (Canal Único | Confiança: 0.47)
+"e um Boxer Media Pronto Seria Zap."
+
+[03:29 até 03:30] Desconhecido (Canal Único | Confiança: 0.12)
+"entendi."
+
+[03:31 até 03:40] Vinicius (Canal Único | Confiança: 0.80)
+"e aqui no final seria quando a gente clicasse em uma dessas, nesses cards aqui, lá no menu principal, que mostraria o mapa do local."
+
+[03:41 até 03:42] Vinicius (Canal Único | Confiança: 0.48)
+"e essas diferenças."
+
+[03:43 até 03:43] Desconhecido (Canal Único | Confiança: 0.08)
+"ok."
+
+[03:44 até 03:45] Desconhecido (Canal Único | Confiança: 0.18)
+"CERTE,"
+
+[03:46 até 03:49] Vinicius (Canal Único | Confiança: 0.54)
+"o outro ponto que a gente também resolveu ontem."
+
+[03:51 até 03:53] Desconhecido (Canal Único | Confiança: 0.25)
+"T.D.A."
+
+[03:54 até 03:59] Vinicius (Canal Único | Confiança: 0.56)
+"uma identificação dos códigos e índios, certo? Certo."
+
+[04:01 até 04:02] Vinicius (Canal Único | Confiança: 0.45)
+"como que a gente pensou."
+
+[04:03 até 04:11] Vinicius (Canal Único | Confiança: 0.75)
+"seria milhares, centenas, dezenas e unidades. Unidade seria o produto, que a gente precisa separar em novos produtos."
+
+[04:13 até 04:19] Vinicius (Canal Único | Confiança: 0.79)
+"desenhar a gravidade desse erro, assim tem a ser o produto."
+
+[04:20 até 04:25] Vinicius (Canal Único | Confiança: 0.57)
+"e humilhar seria o problema definido do nosso sistema."
+
+[04:26 até 04:33] Vinicius (Canal Único | Confiança: 0.79)
+"ou seja, avisa que a pessoa não sabe qual que é o problema exato, se não sabe a parte do melhor, mas você vai conseguir saber se é um problema grave, se é um problema..."
+
+[04:33 até 04:35] Vinicius (Canal Único | Confiança: 0.38)
+"um copo duto..."
+
+[04:35 até 04:41] Vinicius (Canal Único | Confiança: 0.77)
+"então isso auxiliaria a quem for tratar o código, tratar as informações e dados naturalmente?"
+
+[04:42 até 04:51] Vinicius (Canal Único | Confiança: 0.73)
+"entendi qual que é o problema, as vezes não sabe o problema, sabe a gravidade, se ela tem que dar uma olhada, se ela pode deixar isso pra depois. Ótimo, ficou muito bom."
+
+[04:52 até 04:53] Desconhecido (Canal Único | Confiança: 0.23)
+"e..."
+
+[04:54 até 05:00] Vinicius (Canal Único | Confiança: 0.71)
+"no geral é isso, ainda a gente fez o início da..."
+
+[05:00 até 05:04] Vinicius (Canal Único | Confiança: 0.76)
+"do tratamento, a gente já criou alguns códigos."
+
+[05:05 até 05:22] Vinicius (Canal Único | Confiança: 0.86)
+"defendendo o que seria cada drag stage, cada produto, os tamanhos que está no Word, no TXPzinho nos arquivos."
+
+[05:24 até 05:27] Vinicius (Canal Único | Confiança: 0.55)
+"pode falar. A gente fez o tratamento."
+
+[05:28 até 05:31] Vinicius (Canal Único | Confiança: 0.67)
+"já fizemos algumas separações, certo?"
+
+[05:33 até 05:45] Vinicius (Canal Único | Confiança: 0.57)
+"e, por fim, a gente hoje anisferiu uma..."
+
+[05:46 até 05:53] Vinicius (Canal Único | Confiança: 0.83)
+"eu pensei numa ideia de começar a fazer um software, só que ele sem funcionar só a aparência."
+
+[05:54 até 06:19] Débora (Canal Único | Confiança: 0.66)
+"e depois que eu tinha chamado, perguntaram que a sua opinião subiu e não teve rede aqui, não indicava. É, eu devo ter colocado no meu site de rede errado, talvez é rede de telefone. Mas não preocupa não, depois a gente vai olhar então, e aí vocês vão trazer isso porque é detalhado ou dá para trazer no slide explicando como é que vai ser cada código? Porque não são tantos, são quantos mais ou menos? São vários?"
+
+[06:20 até 06:32] Vinicius (Canal Único | Confiança: 0.83)
+"porque o código vai ter que ter tanta quantidade de problemas que tem. O que a gente pode trazer é o tamanho, como foi definido, a gravidade dos produtos. Isso aí são 9 ou 8 cada um."
+
+[06:33 até 06:52] Vinicius (Canal Único | Confiança: 0.76)
+"só que problemas, pode ter nenhum problema, vai depender de como a área deles vão querer separar as lemas, separar as regras. Vocês conseguiram falar com quem lá no trejo para conseguir as imagens? Ninguém. O trejo está até na eventa de..."
+
+[06:53 até 07:02] Vitor (Canal Único | Confiança: 0.64)
+"e também o PCP."
+
+[07:03 até 07:04] Desconhecido (Canal Único | Confiança: 0.08)
+"e de..."
+
+[07:05 até 07:35] Vitor (Canal Único | Confiança: 0.75)
+"como que eles organizam já, o que que consegue trabalhar ou não e inclusive isso causa um pouco com o que eu tava fazendo ontem que eu tava organizando por teorias e sobre como que é colocado no supermercado pra ver se tem alguma coisa que a gente podia colocar como parâmetro, por exemplo, olhar, teoria, assim, tudo e o que que a gente me falou, ah, parece muito que é mais para o supermercado, eu falei porque é mesmo, porque as principais teorias são tipo como aquilo é colocado nos supermercados"
+
+[07:35 até 08:00] Vitor (Canal Único | Confiança: 0.83)
+"supermercado, e para o supermercado, não para a fábrica que está entregando. Então, o que eu quero analisar, eu leio tudo isso, foi, pô, teria que ter uma visão, se existe alguma coisa do comercial como contrato, falando, não, é aqui a gente coloca dessa forma, que a gente vê isso, ou se tem, tipo, a liberdade dos estabelecimentos para ver isso."
+
+[08:00 até 08:25] Vinicius (Canal Único | Confiança: 0.49)
+"o sistema Sankhya, o sistema Sankhya, o sistema Sankhya,"
+
+[08:26 até 08:31] Vinicius (Canal Único | Confiança: 0.71)
+"e o que eu queria mostrar é esse início aqui."
+
+[08:32 até 08:43] Vinicius (Canal Único | Confiança: 0.78)
+"ゃfila 217 ANDROID,ements malignanais"
+
+[08:45 até 08:50] Vinicius (Canal Único | Confiança: 0.80)
+"o projeto para poder mostrar semana que vem, caso tenha reunião já."
+
+[08:51 até 09:21] Débora (Canal Único | Confiança: 0.72)
+"PCP, SNAC, PCP,钢اتu, detector USB, PCP, PIP,底slate, A gente precisa do QLP, dos promotores, vocês já conseguiram levantar isso? Já tenho as informações, já, por causa daquela..."
+
+[09:21 até 09:51] Débora (Canal Único | Confiança: 0.78)
+"estoy resgatando a data daquela carry que eu fiz. Eu só não puxei ela ainda, mas eu já tenho essa informação. Então, vamos levantar a quantidade de promotores que tem em cada uma das unidades, e a quantidade de aparelhos que tem em cada uma das unidades. De modelos de aparelhos também, trazendo o modelo, porque é importante. Sim, a gente é da área de planejamento, aí a gente tem que acessar o banco, né, então a gente consegue acessar"
+
+[09:51 até 09:58] Débora (Canal Único | Confiança: 0.72)
+"o que você pode achar pelo banco, pelo menos por enquanto, as informações de..."
+
+[09:59 até 10:02] Débora (Canal Único | Confiança: 0.41)
+"controle do Sankhya."
+
+[10:02 até 10:22] Débora (Canal Único | Confiança: 0.61)
+"PIP2."
+
+[10:23 até 10:53] Débora (Canal Único | Confiança: 0.81)
+"hardware, hardware, mas vocês descobrindo o caminho vocês podem ir seguindo pra conseguir chegar no objetivo. A gente não vai ter essa reunião com eles, com o comercial? Então é a hora de ir tentando desbravar o máximo que conseguir, pra quando a gente chegar lá, a gente irá chegar com uma coisa mais estruturada. Aí pegava para aquela volta que já era três, na reunião de..."
+
+[10:53 até 11:12] Vinicius (Canal Único | Confiança: 0.62)
+"PCP, KLP, PIP, PIP, sistema Sankhya, IPIs, pip IPPS e PIP de"
+
+[11:15 até 11:24] Débora (Canal Único | Confiança: 0.74)
+"granny 34, PCP, PCP frame."
+
+[11:26 até 11:50] Débora (Canal Único | Confiança: 0.87)
+"AIO. Dia 3 a gente, eu não tenho certeza se a Milena da área de diante vai chegar no dia 3 não, mas parece que eu ouvi isso. Agora, a Isadora no dia 5, quinta-feira, tá? Então a gente tem tempo para ir levantando esses passos que eu direcionei vocês para a gente poder chegar preparado com José. Vocês chegaram a falar com ele? Não. Ele não encontrou ele. Ele também tá lá."
+
+[11:50 até 11:55] Débora (Canal Único | Confiança: 0.34)
+"na feira. Porque pelo quem conversa lá? Eu acho!"
+
+[11:57 até 12:06] Vitor (Canal Único | Confiança: 0.57)
+"e mais."
+
+[12:07 até 12:13] Vitor (Canal Único | Confiança: 0.68)
+"para a gente começar a testar os modelos de alta, ele falou que o José não estava, possivelmente fica verão lá também."
+
+[12:13 até 12:41] Débora (Canal Único | Confiança: 0.84)
+"PCP, PCP, PIP, Data Sankhya, PIP, sistema Sankhya e PIP, APP, PCP, KDP, IP, KDP e system Sankhya. muito bom. Volta lá no início, só para eu ter certeza, checar se é o que eu vi mesmo, né? É isso mesmo, tá muito bom, tá caminhando. A minha ideia hoje é tentar fazer já a..."
+
+[12:42 até 12:45] Vinicius (Canal Único | Confiança: 0.53)
+"só o demonstrativo do celular."
+
+[12:46 até 13:15] Débora (Canal Único | Confiança: 0.83)
+"e amanhã pegar todas as informações. Ok. Aí amanhã, sexta-feira, eu tenho reunião o dia todo. Então eu não vou ter tempo de parar para ir olhando, mas vocês podem ir mandando no grupo as etapas que forem sendo cumpridas. Eu ainda não consegui ver as mensagens que foram enviadas ontem, mas assim que eu for vendo, eu vou me comunicando com vocês. Porque o som do diadris, porque o... O nome dele é..."
+
+[13:16 até 13:20] Vinicius (Canal Único | Confiança: 0.56)
+"O que ele faz? O que ele falou ontem? Que ele falou que iria tirar com a gente?"
+
+[13:21 até 13:30] Vinicius (Canal Único | Confiança: 0.74)
+"comercial, o José e a Isadora que estavam lá. O José falou que eu era uma trata com a Isadora que estava dia 3. Isso."
+
+[13:31 até 14:01] Débora (Canal Único | Confiança: 0.87)
+"startup de downtime de É por isso que a gente está seguindo esse fluxo de trabalho. A gente tem três caminhos, então a gente não fica parado. E qual que a gente está seguindo hoje?"
+
+[14:01 até 14:04] Vinicius (Canal Único | Confiança: 0.52)
+"para me localizar. Hoje eu estou aqui..."
+
+[14:05 até 14:09] Vinicius (Canal Único | Confiança: 0.45)
+"e o VTL está aqui. Certo."
+
+[14:09 até 14:12] Vinicius (Canal Único | Confiança: 0.53)
+"a gente já vai ter feito até daqui a lição."
+
+[14:13 até 14:17] Vinicius (Canal Único | Confiança: 0.56)
+"e agora até gordação e eu fiz a criação do ambiente."
+
+[14:18 até 14:22] Vinicius (Canal Único | Confiança: 0.64)
+"torna-caso de BI e inicia para o treinamento, entende?"
+
+[14:23 até 14:26] Débora (Canal Único | Confiança: 0.53)
+"e qualquer parte que levanta os dados."
+
+[14:27 até 14:46] Débora (Canal Único | Confiança: 0.54)
+"e a das imagens. Ah, entendi. E quem que vai fazer essa parte? A nós dois. Vocês vão definir, né? Eu vou fazer os tratamentos de síndrome, o tratamento de rotação, e o Sinaí vai fazer a etiquetação das imagens. Certo. E essa quantidade KLP de..."
+
+[14:46 até 15:10] Débora (Canal Único | Confiança: 0.76)
+"de acessórios, não aparelhos, fica em qual parte desse fluxo de trabalho desenhado? É que esse aqui é só o desenvolvimento, não conta a parte da... Mas no desenvolvimento tem a questão do aparelho necessário, quanto que ele custa... É, os pré-requisitos do sistema... Aonde que está isso."
+
+[15:11 até 15:41] Vinicius (Canal Único | Confiança: 0.66)
+"PCP, PCP, PCP, PCP, PCP, PCP, PCP,"
+
+[15:41 até 15:50] Débora (Canal Único | Confiança: 0.70)
+"mas que vai depender também das regras que eles vão passar. Esse código que eu estou falando, esse código que é o código?"
+
+[15:51 até 16:06] Vinicius (Canal Único | Confiança: 0.84)
+"funcionando do aparelho já com o modelo tudo funcionando e esse código aqui é o processo para criar o modelo e o processo do ambiente. Temos três caminhos que eles não se batem por enquanto."
+
+[16:06 até 16:09] Vinicius (Canal Único | Confiança: 0.47)
+"portugueses, portugueses, portugueses, portugueses."
+
+[16:10 até 16:14] Débora (Canal Único | Confiança: 0.41)
+"então desculpa que atrapalhou. Mas não atrapalhou não."
+
+[16:14 até 16:17] Vinicius (Canal Único | Confiança: 0.41)
+"no cárcel."
+
+[16:18 até 16:38] Vinicius (Canal Único | Confiança: 0.84)
+"A gente tem uns três caminhos, um deles é o código que não nem os três eles se batem, até a gente ter que fazer o código funcionar de fato. Então a gente consegue fazer uma esquerda do código, consegue fazer o tratamento das imagens e consegue desenvolver as regras sem nem os três interferir. Tanto é que uma imagem a gente nem começou..."
+
+[16:39 até 16:41] Vinicius (Canal Único | Confiança: 0.46)
+"o das regras já está quase terminando."
+
+[16:41 até 16:48] Vinicius (Canal Único | Confiança: 0.77)
+"teoricamente, e o código que a gente está no início ainda, então os três não se batem. Ok."
+
+[16:49 até 16:53] Débora (Canal Único | Confiança: 0.53)
+"conseguimos metanalizar em meia hora o que você queria?"
+
+[16:54 até 17:02] Vinicius (Canal Único | Confiança: 0.69)
+"e a questão dos modelos, a informação que eu tenho, mas vou só levantar para ter a informação concreta."
+
+[17:03 até 17:10] Vinicius (Canal Único | Confiança: 0.78)
+"mas a informação que eu tenho deles lá é que o celular base é o A05."
+
+[17:11 até 17:37] Débora (Canal Único | Confiança: 0.85)
+"PIP, PCP."

@@ -35,22 +35,38 @@ def extrairParticipantesDoTxt(textoBruto: str) -> list:
     padrao = r"\]\s*([^(\n:]+?)(?:\s*\(|:)"
     encontrados = re.findall(padrao, textoBruto)
 
-    nomesValidos = set()
-    for nome in encontrados:
-        limpo = nome.strip()
+    participantes = {}
+    for item in encontrados:
+        limpo = item.strip()
         if limpo and limpo.lower() != "desconhecido":
-            nomesValidos.add(limpo)
+            if " - " in limpo:
+                partes = limpo.split(" - ", 1)
+                nome = partes[0].strip()
+                cargo = partes[1].strip() or "Participante"
+            else:
+                nome = limpo
+                cargo = "Participante"
 
-    if not nomesValidos:
+            if nome not in participantes or (
+                participantes[nome] == "Participante"
+                and cargo != "Participante"
+            ):
+                participantes[nome] = cargo
+
+    if not participantes:
         return [{"nome": "Participante", "cargo": "-"}]
 
-    return [{"nome": n, "cargo": "Participante"} for n in sorted(nomesValidos)]
+    return [
+        {"nome": n, "cargo": participantes[n]}
+        for n in sorted(participantes.keys())
+    ]
 
 
 def extrairMetadados(textoBruto: str):
     dia, horario = "--/--/----", "--:--"
     m = re.search(
-        r"Data de reunião:\s*(\d{2}/\d{2}/\d{4})\s*às\s*(\d{2}:\d{2})", textoBruto
+        r"Data de reunião:\s*(\d{2}/\d{2}/\d{4})\s*às\s*(\d{2}:\d{2})",
+        textoBruto,
     )
     if m:
         dia, horario = m.group(1), m.group(2)
@@ -66,7 +82,9 @@ def comprimirTexto(textoBruto: str) -> list:
         if not txt or "Data de reunião:" in txt:
             continue
         txt = re.sub(r"\s*\([^)]*\)", "", txt)
-        txt = re.sub(r"\[\d{2}:\d{2}\s*até\s*\d{2}:\d{2}\]\s*", "", txt).strip()
+        txt = re.sub(
+            r"\[\d{2}:\d{2}\s*até\s*\d{2}:\d{2}\]\s*", "", txt
+        ).strip()
 
         txtNorm = txt.lower()
         if txt and txtNorm not in vistas:
@@ -93,6 +111,7 @@ Trecho de reunião:
 
 Extraia tópicos e decisões deste trecho sem repetir frases.
 Defina um título de no máximo 5 palavras.
+No lugar de Discussão e argumentos descreva o q foi falado sobre o tópico.
 Responda exclusivamente em JSON:
 {{
   "titulo": "Frase de até cinco palavras",
@@ -144,8 +163,10 @@ Temas extraídos:
 \"\"\"
 
 1. Crie no campo "subtitulo" uma frase de NO MÁXIMO 5 PALAVRAS que resuma o assunto principal da reunião.
+
 2. Agrupe os itens em macro-assuntos sem frases repetidas no campo "temas".
 
+3. em situacao traga o resumo do q foi discutido em áudio
 Responda exclusivamente em JSON:
 {{
   "subtitulo": "Frase até cinco palavras",
@@ -202,7 +223,9 @@ def mesclarLotes(resultados: list, modelo: str) -> dict:
                 d["acao"] = acao
                 decisoesTodas.append(d)
 
-    subtituloFinal, temasConsolidados = sintetizarMacroTemas(temasBrutos, modelo)
+    subtituloFinal, temasConsolidados = sintetizarMacroTemas(
+        temasBrutos, modelo
+    )
 
     for dec in decisoesTodas:
         if not dec.get("responsavel"):
@@ -214,7 +237,10 @@ def mesclarLotes(resultados: list, modelo: str) -> dict:
 
     if not temasConsolidados:
         temasConsolidados = [
-            {"tema": "Geral", "situacao": "Discussão e alinhamento dos pontos tratados."}
+            {
+                "tema": "Geral",
+                "situacao": "Discussão e alinhamento dos pontos tratados.",
+            }
         ]
 
     if not decisoesTodas:
@@ -255,7 +281,10 @@ def extrairDadosComLlm(
     for idx, lote in enumerate(lotes):
         if callbackProgresso:
             progressoAtual = 0.2 + (0.5 * (idx / totalLotes))
-            callbackProgresso(progressoAtual, f"Processando lote {idx + 1} de {totalLotes}...")
+            callbackProgresso(
+                progressoAtual,
+                f"Processando lote {idx + 1} de {totalLotes}...",
+            )
 
         res = processarLote(lote, modelo)
         resultadosLotes.append(res)

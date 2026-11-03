@@ -1,0 +1,23 @@
+Ata de Reunião
+Data de reunião:03/11/2026 às 10:08
+
+[00:00 até 00:08] Vitor - Estagiário (Canal Único | Confiança: 0.79)
+"O objetivo aqui é eu explicar o que eu quero de melhoria para IA e o que eu acho que vai servir mais para o contexto."
+
+[00:09 até 00:10] Desconhecido (Canal Único | Confiança: 0.19)
+"e..."
+
+[00:11 até 00:13] Desconhecido (Canal Único | Confiança: 0.28)
+"AI-YA, ela..."
+
+[00:13 até 00:22] Vitor - Estagiário (Canal Único | Confiança: 0.83)
+"fez a sua interpretação de uma questão, eu entendi, mas o que falta é a gente ter uma forma dela..."
+
+[00:23 até 00:31] Vitor - Estagiário (Canal Único | Confiança: 0.83)
+"poder traduzir exatamente o que a gente quer ouvir, o que a gente quer ver, porque, por exemplo, no..."
+
+[00:33 até 00:38] Vitor - Estagiário (Canal Único | Confiança: 0.84)
+"no áudio que eu enviei, a gente tem a minha justificação."
+
+[00:39 até 01:05] Vitor - Estagiário (Canal Único | Confiança: 0.87)
+"sobre os valores apresentados, sobre o preço dos alvos da ABU, o valor financeiro. Só que ela tratou só como preço dos alvos das outras ABUs, que é um dos pontos principais que eu comento, que é a comparação da nossa região com as outras, mas ela trata como se isso fosse o principal do áudio, por exemplo, é a minha justificação no motivo de manter o óbvio."
